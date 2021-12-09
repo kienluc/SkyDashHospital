@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache
+Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name = "base" template="/WEB-INF/admin/layout/base.jsp">
+        <put-attribute name="title" value="Trang Chu" />
+        <put-attribute name="header" value="/WEB-INF/admin/layout/header.jsp"/>
+        <put-attribute name="setting-panel" value="/WEB-INF/admin/layout/setting-panel.jsp"/>
+        <put-attribute name="sidebar" value="/WEB-INF/admin/layout/sidebar.jsp"/>
+        <put-attribute name="body" value="WELCOME TO MY HOSPITAL" />
+        <put-attribute name="footer" value="/WEB-INF/admin/layout/footer.jsp"/>
+        <put-attribute name="head-plugin" value="Head-plugin" />
+        <put-attribute name="body-plugin" value="Body-plugin" />
+    </definition>
+    <definition name = "index" extends="base">
+        <put-attribute name="title" value="" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/index/index.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/index/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/index/body-plugin.jsp" />
+    </definition>
+
+<!--    Cac trang patients-->
+
+    <definition name = "patients" extends="base">
+        <put-attribute name="title" value="All patients" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/patients/patients.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/patients/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/patients/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "edit-patient" extends="base">
+        <put-attribute name="title" value="" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-patient/edit-patient.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-patient/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-patient/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-patient" extends="base">
+        <put-attribute name="title" value="" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-patient/add-patient.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-patient/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-patient/body-plugin.jsp" />
+    </definition>
+
+<!--    Cac trang doctor-->
+
+    <definition name = "doctors" extends="base">
+        <put-attribute name="title" value="All doctors" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/doctors/doctors.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/doctors/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/doctors/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-doctor" extends="base">
+        <put-attribute name="title" value="Add doctors" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-doctor/add-doctor.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-doctor/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-doctor/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "edit-doctor" extends="base">
+        <put-attribute name="title" value="Edit doctors" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-doctor/edit-doctor.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-doctor/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-doctor/body-plugin.jsp" />
+    </definition>
+
+<!--    Cac trang drugs-->
+    <definition name = "edit-drug" extends="base">
+        <put-attribute name="title" value="Edit drug" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-drug/edit-drug.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-drug/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-drug/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-drug" extends="base">
+        <put-attribute name="title" value="Add drug" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-drug/add-drug.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-drug/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-drug/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "drugs" extends="base">
+        <put-attribute name="title" value="All drugs" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/drugs/drugs.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/drugs/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/drugs/body-plugin.jsp" />
+    </definition>
+
+<!--    Cac trang appointment-->
+
+    <definition name = "appointments" extends="base">
+        <put-attribute name="title" value="All appointment" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/appointments/appointments.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/appointments/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/appointments/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-appointment" extends="base">
+        <put-attribute name="title" value="Add appointment" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-appointment/add-appointment.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-appointment/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-appointment/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "edit-appointment" extends="base">
+        <put-attribute name="title" value="Edit appointment" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-appointment/edit-appointment.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-appointment/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-appointment/body-plugin.jsp" />
+    </definition>
+
+<!--    cac trang doctor schedule-->
+
+    <definition name = "edit-doctorschedule" extends="base">
+        <put-attribute name="title" value="Edit doctorschedule" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-doctorschedule/edit-doctorschedule.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-doctorschedule/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-doctorschedule/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-doctorschedule" extends="base">
+        <put-attribute name="title" value="Add doctorschedule" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-doctorschedule/add-doctorschedule.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-doctorschedule/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-doctorschedule/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "doctorschedules" extends="base">
+        <put-attribute name="title" value="All doctorschedules" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/doctorschedules/doctorschedules.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/doctorschedules/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/doctorschedules/body-plugin.jsp" />
+    </definition>
+
+<!--    Cac trang bills-->
+
+    <definition name = "edit-bill" extends="base">
+        <put-attribute name="title" value="Edit bill" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-bill/edit-bill.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-bill/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-bill/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-bill" extends="base">
+        <put-attribute name="title" value="Add bill" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-bill/add-bill.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-bill/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-bill/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "bills" extends="base">
+        <put-attribute name="title" value="All bills" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/bills/bills.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/bills/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/bills/body-plugin.jsp" />
+    </definition>
+
+<!--    Cac trang accounts-->
+
+    <definition name = "edit-account" extends="base">
+        <put-attribute name="title" value="Edit account" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-account/edit-account.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-account/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-account/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-account" extends="base">
+        <put-attribute name="title" value="Add account" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-account/add-account.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-account/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-account/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "accounts" extends="base">
+        <put-attribute name="title" value="All accounts" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/accounts/accounts.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/accounts/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/accounts/body-plugin.jsp" />
+    </definition>
+
+<!--    Cac trang departments-->
+
+    <definition name = "edit-department" extends="base">
+        <put-attribute name="title" value="Edit department" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-department/edit-department.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-department/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-department/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-department" extends="base">
+        <put-attribute name="title" value="Add department" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-department/add-department.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-department/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-department/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "departments" extends="base">
+        <put-attribute name="title" value="All Departments" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/departments/departments.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/departments/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/departments/body-plugin.jsp" />
+    </definition>
+
+<!--    Cac trang shift-->
+
+    <definition name = "edit-shift" extends="base">
+        <put-attribute name="title" value="Edit shift" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/edit-shift/edit-shift.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/edit-shift/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/edit-shift/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "add-shift" extends="base">
+        <put-attribute name="title" value="Add shift" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/add-shift/add-shift.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/add-shift/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/add-shift/body-plugin.jsp" />
+    </definition>
+
+    <definition name = "shifts" extends="base">
+        <put-attribute name="title" value="All Shifts" />
+        <put-attribute name="body" value="/WEB-INF/admin/pages/shifts/shifts.jsp" />
+        <put-attribute name="head-plugin" value="/WEB-INF/admin/pages/shifts/head-plugin.jsp" />
+        <put-attribute name="body-plugin" value="/WEB-INF/admin/pages/shifts/body-plugin.jsp" />
+    </definition>
+
+<!--    Trang Login & Sign Up-->
+    <definition name="login" template="/WEB-INF/admin/pages/login/login.jsp">
+        <put-attribute name="title" value="Welcome to our Hospital" />
+
+    </definition>
+
+<!--    Trang Client-->
+    <definition name="base2" template="/WEB-INF/client/layout/base2.jsp">
+        <put-attribute name="title2" value="Welcome to our hospital" />
+        <put-attribute name="header2" value="/WEB-INF/client/layout/header2.jsp"/>
+        <put-attribute name="footer2" value="/WEB-INF/client/layout/footer2.jsp"/>
+        <put-attribute name="body2" value="WELCOMEEEEEEE"/>
+    </definition>
+
+    <definition name="index2" extends="base2">
+        <put-attribute name="body2" value="/WEB-INF/client/pages/index2.jsp"/>
+    </definition>
+
+</tiles-definitions>

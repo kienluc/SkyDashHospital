@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SaleApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SaleApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="QuanLyPhongMach-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SaleApp:war exploded" />
+    </root>
+  </artifact>
+</component>

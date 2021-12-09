@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/layout/base.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/layout" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/layout/header.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/layout" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/layout/sidebar.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/layout" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/add-bill/add-bill.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/add-bill" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/add-bill/body-plugin.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/add-bill" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/add-doctor/add-doctor.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/add-doctor" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/add-patient/add-patient.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/add-patient" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/doctors/body-plugin.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/doctors" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/doctors/doctors.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/doctors" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/edit-doctor/edit-doctor.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/edit-doctor" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/edit-patient/edit-patient.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/edit-patient" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/index/body-plugin.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/index" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/index/head-plugin.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/index" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/login/login.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/login" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/patients/body-plugin.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/patients" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/patients/patients.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/pages/patients" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/client/layout/base2.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/client/layout" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/client/pages/index2.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/client/pages" />
+      </map>
+    </option>
+  </component>
+</project>
